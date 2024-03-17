@@ -1,0 +1,140 @@
+.cal{
+    display: grid;
+    background-color: ;
+}
+
+#name{
+    
+    color: black;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    text-decoration-line: dashed;
+    background-color: rgb(163, 71, 250);
+    
+    padding-bottom: 5px;
+    width: 89%;
+    border: 5px solid black;
+    
+    border-radius: 5px;
+    text-align: center;
+    margin:auto;
+
+}
+
+.input{
+    margin-left: 35%;
+    box-sizing: 
+}
+
+.num input[type="button"]{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
+    
+    width: 33%;
+    height: 50px;
+    border-radius: 5px;
+    
+    display: grid;
+
+    grid-template-columns: auto auto;
+}
+.num {
+    display: grid ;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+}
+
+.op{
+    display : grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+    color: red;
+    padding: 3px 6px;
+   
+    width: 88%;
+    background-color: rgb(230, 191, 230);
+    border-radius: 6px;
+    color: black;
+    border-color:black;
+    border-style: wave;
+    border: 5px solid black;
+    margin: auto;
+    
+}
+
+.op input[type="button"]{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border:  3px solid black;
+    margin-top: 6px;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 15px;
+
+    
+    display: grid;
+
+    grid-template-columns: auto auto;
+}
+
+.op input[type="button"]:hover{
+    background-color: aqua;
+    
+}
+.op input[type="button"]:after{
+    background-color: black;
+}
+.inp{
+    background-color: rgb(230, 191, 230);
+    
+    width: 88%;
+   position: relative;
+   height: 80px;
+   top: 5px;
+   text-align: right;
+   padding: 3px 6px;
+   outline: none;
+   font-size: 40px;
+   border: 5px solid black;
+   display: flex;
+   margin: auto;
+   border-radius: 6px;
+   color: black;
+}
+.inp input[type="text"]{
+    width: 80%;
+    height:80%;
+    margin-top: 3px;
+    margin-left: 10px;
+    color:black;
+    border-radius: 6px;
+    border: 5px solid black;
+    background-color: #eaccff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80%;
+}
+.inp #ans{
+    background-color:  #64278f;
+    width: 20%;
+    height:80%;
+    margin-top: 6px;
+    margin-left: 13px;
+    color:white;
+    margin-right: 4px;
+    border-radius: 6px;
+    font-size: 40px;
+    border: 3px solid black;
+
+
+}
+.inp #ans:hover{
+background-color:aqua
+}
+.inp input[type="text"]:hover{
+    background-color: bisque;
+}
